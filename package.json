@@ -1,0 +1,36 @@
+{
+  "name": "andro-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/dist/main.mjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "electron:build": "node electron/build.mjs",
+    "electron:dev": "node electron/dev.mjs",
+    "electron:start": "node electron/build.mjs && electron .",
+    "electron:smoke": "node electron/smoke.mjs",
+    "auth:import": "electron electron/import-auth.mjs",
+    "auth:check": "electron electron/import-auth.mjs --list"
+  },
+  "dependencies": {
+    "lucide-react": "^1.33.0",
+    "motion": "^13.1.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "electron": "^44.4.2",
+    "esbuild": "^0.28.2",
+    "oxlint": "^1.75.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}

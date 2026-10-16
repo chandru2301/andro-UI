@@ -1,0 +1,200 @@
+.app-shell{height:100vh;display:flex;overflow:hidden;background:var(--tempest-bg-base);color:var(--tempest-fg-default);font-family:Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased}.sidebar{width:218px;flex:0 0 218px;background:var(--tempest-bg-sidebar);border-right:1px solid var(--tempest-border-default);display:flex;flex-direction:column;padding:10px 8px}.brand{height:32px;display:flex;align-items:center;gap:8px;padding:0 9px;font-size:13px;font-weight:500}.brand-mark{width:22px;height:22px;border-radius:5px;display:grid;place-items:center;background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-default);color:var(--tempest-fg-default);font:500 11px 'Geist Mono',monospace}.beta{margin-left:auto;font:500 8px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);letter-spacing:.08em}.side-label,.mini-title{font-size:9px;font-weight:600;letter-spacing:.09em;color:var(--tempest-fg-subtle)}.side-label{padding:0 9px;margin:24px 0 6px}.project-switcher{height:30px;width:100%;display:flex;align-items:center;gap:7px;padding:0 8px;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--tempest-fg-default);font-size:12px}.project-switcher:hover{background:var(--tempest-bg-hover)}.project-switcher span{flex:1;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.side-nav{display:flex;flex-direction:column;gap:1px;margin-top:9px}.side-nav button{height:30px;border:0;border-radius:6px;background:transparent;color:var(--tempest-fg-muted);display:flex;align-items:center;gap:8px;padding:0 9px;font-size:12px;text-align:left}.side-nav button:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default)}.side-nav button.active{background:var(--tempest-bg-active);color:var(--tempest-fg-default)}.side-nav button span{margin-left:auto;font-size:10px;color:var(--tempest-fg-subtle)}.sidebar-bottom{margin-top:auto;padding:9px;border-top:1px solid var(--tempest-border-default)}.connection{display:flex;align-items:center;gap:7px;color:var(--tempest-fg-subtle);font-size:10px;margin-bottom:10px}.connection-dot,.status-green{width:5px;height:5px;border-radius:50%;background:var(--tempest-fg-subtle);display:inline-block}.connection-dot.online,.status-green{background:var(--tempest-accent-green)}.side-meta{display:flex;align-items:center;gap:6px;color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace}.workspace{min-width:0;flex:1;display:flex;flex-direction:column;background:var(--tempest-bg-base)}.topbar{height:38px;flex:0 0 38px;border-bottom:1px solid var(--tempest-border-default);display:flex;align-items:center;justify-content:space-between;padding:0 13px;color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace}.topbar>div:first-child{display:flex;align-items:center;gap:5px}.crumb{color:var(--tempest-fg-muted);letter-spacing:.07em}.top-status{display:flex;align-items:center;gap:6px}.pulse{width:5px;height:5px;border-radius:50%;background:var(--tempest-fg-subtle)}.pulse.running{background:var(--tempest-accent-yellow);box-shadow:0 0 0 3px color-mix(in srgb,var(--tempest-accent-yellow) 12%,transparent)}.content{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden;width:min(var(--andro-content-width,1060px),calc(100% - 36px));margin:0 auto;padding:26px 0 34px}.session-header{display:flex;justify-content:space-between;align-items:flex-start;padding:0 2px 18px;border-bottom:1px solid var(--tempest-border-default)}.eyebrow{font:500 9px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);letter-spacing:.08em;margin-bottom:7px}.session-header h1{margin:0 0 5px;font-size:20px;font-weight:500;letter-spacing:-.01em;color:var(--tempest-fg-default)}.session-header p{margin:0;color:var(--tempest-fg-muted);font-size:11px;line-height:1.5}.session-id{display:flex;flex-direction:column;align-items:flex-end;gap:4px;font:9px 'Geist Mono',monospace;color:var(--tempest-fg-subtle)}.session-id code{color:var(--tempest-fg-muted)}.layout{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:12px;margin-top:12px}.main-panel,.right-panel{min-height:0;border:1px solid var(--tempest-border-default);background:var(--tempest-bg-panel);border-radius:7px;overflow:hidden}.panel-head{height:39px;border-bottom:1px solid var(--tempest-border-default);display:flex;align-items:center;justify-content:space-between;padding:0 11px}.panel-head>div{display:flex;align-items:center;gap:8px}.panel-title{font-size:11px;color:var(--tempest-fg-default)}.panel-subtitle{font:10px 'Geist Mono',monospace;color:var(--tempest-fg-subtle)}.live-chip{display:flex;align-items:center;gap:5px;font:9px 'Geist Mono',monospace;color:var(--tempest-accent-green)}.live-chip span{width:5px;height:5px;border-radius:50%;background:var(--tempest-accent-green)}.activity-list{height:100%;overflow-y:auto;padding:5px 6px}.activity-trigger{width:100%;min-height:32px;border:0;border-radius:6px;background:transparent;color:var(--tempest-fg-muted);display:flex;align-items:center;gap:7px;padding:0 6px;text-align:left;font-size:12px}.activity-trigger:not(:disabled):hover{background:var(--tempest-bg-hover)}.status-dot{width:5px;height:5px;border-radius:50%;background:var(--tempest-fg-subtle);flex:0 0 auto}.status-dot.complete{background:transparent;border:1px solid var(--tempest-fg-subtle);opacity:.6}.status-dot.running{background:var(--tempest-accent-yellow);animation:pulse 1.3s ease-in-out infinite}.status-dot.error{background:var(--tempest-accent-red)}@keyframes pulse{50%{opacity:.45}}.activity-icon{width:16px;height:16px;display:grid;place-items:center;color:var(--tempest-fg-subtle);flex:0 0 auto}.activity-title{color:var(--tempest-fg-default);white-space:nowrap;font-size:11.5px}.activity-path,.activity-summary{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace;flex:1;min-width:0}.activity-time{color:var(--tempest-fg-subtle);font:9px 'Geist Mono',monospace;margin-left:auto;opacity:.65}.duration{color:var(--tempest-fg-subtle);font:9px 'Geist Mono',monospace}.activity-detail{margin:0 25px 4px 30px;padding:8px 9px;background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-subtle);border-radius:5px;display:flex;gap:12px;align-items:center;color:var(--tempest-fg-muted);font-size:10px}.activity-detail code{color:var(--tempest-fg-muted);font:10px 'Geist Mono',monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.activity-detail span:nth-child(2){flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.diff-count{margin-left:auto}.diff-count b{color:var(--tempest-git-added);font-weight:400}.diff-count i{color:var(--tempest-git-deleted);font-style:normal;margin-left:4px}.spin{animation:spin 1s linear infinite;color:var(--tempest-accent-yellow)}@keyframes spin{to{transform:rotate(360deg)}}.stats{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--tempest-border-default)}.stats div{padding:11px;border-right:1px solid var(--tempest-border-default);border-bottom:1px solid var(--tempest-border-default)}.stats div:nth-child(2n){border-right:0}.stats div:nth-child(n+3){border-bottom:0}.stats span{display:block;font:8px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);letter-spacing:.08em;margin-bottom:5px}.stats b{font-size:15px;font-weight:500;color:var(--tempest-fg-default)}.changes-section{padding:12px;border-bottom:1px solid var(--tempest-border-default)}.mini-title{margin-bottom:7px}.change-file{display:flex;align-items:center;gap:7px;padding:5px 0;color:var(--tempest-fg-muted);font-size:10px}.change-file span:nth-child(2){flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.change-file em{font:8px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);font-style:normal}.file-type{width:15px;height:15px;display:grid;place-items:center;border-radius:3px;background:var(--tempest-bg-hover);font:500 8px 'Geist Mono',monospace;color:var(--tempest-fg-muted)}.file-type.M{color:var(--tempest-git-modified)}.file-type.A{color:var(--tempest-git-added)}.file-type.D{color:var(--tempest-git-deleted)}.review-box{padding:12px}.review-box p{margin:0 0 10px;color:var(--tempest-fg-subtle);font-size:10px;line-height:1.5}.review-box button{height:28px;border:1px solid var(--tempest-border-default);background:var(--tempest-bg-editor);color:var(--tempest-fg-default);border-radius:6px;padding:0 9px;display:flex;align-items:center;gap:6px;font-size:10px}.review-box button:hover{background:var(--tempest-bg-hover)}.file-row{min-height:38px;display:flex;align-items:center;gap:8px;padding:0 11px;border-bottom:1px solid var(--tempest-border-default);color:var(--tempest-fg-muted);font-size:11px}.file-row code{font:10px 'Geist Mono',monospace;flex:1}.file-diff{font:9px 'Geist Mono',monospace;color:var(--tempest-git-added)}.session-card{margin:4px;padding:11px 12px;border:1px solid var(--tempest-border-default);border-radius:6px;background:var(--tempest-bg-editor)}.session-card:hover{background:var(--tempest-bg-hover)}.session-card-head{display:flex;align-items:center;gap:7px;color:var(--tempest-fg-default);font-size:11px}.session-card-head em{margin-left:auto;font:9px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);font-style:normal}.session-card-meta{display:flex;justify-content:space-between;margin-top:7px;color:var(--tempest-fg-subtle);font:9px 'Geist Mono',monospace}.empty-state{min-height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--tempest-fg-subtle);font-size:10px}.statusbar{height:22px;flex:0 0 22px;border-top:1px solid var(--tempest-border-default);background:var(--tempest-bg-sidebar);display:flex;align-items:center;gap:14px;padding:0 10px;color:var(--tempest-fg-subtle);font:9px 'Geist Mono',monospace}.statusbar>span{display:flex;align-items:center;gap:5px}.status-spacer{flex:1}.error-text{color:var(--tempest-accent-red)}@media(max-width:800px){.sidebar{width:190px;flex-basis:190px}.layout{grid-template-columns:1fr}.right-panel{display:none}}@media(max-width:600px){.sidebar{display:none}.content{width:calc(100% - 20px);padding-top:18px}.session-header{gap:12px}.session-header p{display:none}.activity-time{display:none}.statusbar{font-size:8px;gap:8px}}
+.activity-copy{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1}.activity-friendly{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--tempest-fg-subtle);font-size:10px}.activity-detail-panel{margin:0 25px 6px 30px;padding:9px;background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-subtle);border-radius:6px;color:var(--tempest-fg-muted);font-size:10px}.detail-line{display:flex;align-items:center;gap:10px;min-height:22px}.detail-line>span:first-child{width:58px;color:var(--tempest-fg-subtle);font-size:9px;text-transform:uppercase;letter-spacing:.05em}.detail-line code{font:10px 'Geist Mono',monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.live-output{margin-top:7px;border-top:1px solid var(--tempest-border-default);padding-top:7px}.output-head{display:flex;justify-content:space-between;color:var(--tempest-fg-subtle);font:8px 'Geist Mono',monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px}.live-output pre{max-height:190px;overflow:auto;margin:0;padding:8px;background:#080808;border-radius:4px;color:#bcbcbc;font:9px/1.5 'Geist Mono',monospace;white-space:pre-wrap;word-break:break-word}.error-icon{color:var(--tempest-accent-red);flex:0 0 auto}.empty-state small{color:#666;font-size:9px}.change-file em{display:flex;align-items:center;gap:2px}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CHAT REGION — the native/HTML boundary
+   The .chat-surface rect is handed to the Electron main process, which docks
+   a native WebContentsView over it. That native layer composites ABOVE all
+   HTML, so:
+     · nothing inside .chat-surface may be relied upon for interaction;
+     · .prompt-bar must never overlap, or it becomes unclickable.
+   These two children are therefore laid out as non-overlapping rows, never
+   absolutely positioned.
+   ───────────────────────────────────────────────────────────────────────── */
+.chat-region{flex:0 0 auto;display:flex;flex-direction:column;border-top:1px solid var(--tempest-border-default);background:var(--tempest-bg-sidebar)}
+/*
+  Closed state: the region keeps its DOM (so dock state, dragged height and
+  composer draft survive) but takes no vertical space. `display:none` is
+  deliberately NOT used — it would drop the elements from layout entirely and
+  the resize observer on the surface would report a zero rect.
+*/
+.chat-region.closed{height:0;min-height:0;overflow:hidden;border-top:0;visibility:hidden;pointer-events:none}
+
+/* Host wraps chrome + the measured rect. Only .chat-surface is reported to the
+   main process, so the chrome bar and resize handle stay clickable. */
+.chat-surface-host{display:flex;flex-direction:column;flex:0 0 auto}
+.chat-surface-chrome{height:30px;flex:0 0 30px;display:flex;align-items:center;gap:7px;padding:0 8px 0 11px;border-bottom:1px solid var(--tempest-border-subtle);background:var(--tempest-bg-sidebar);color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace}
+.chat-surface-close{width:22px;height:22px;margin-left:6px;flex:0 0 22px;display:grid;place-items:center;border:0;border-radius:5px;background:transparent;color:var(--tempest-fg-subtle)}
+.chat-surface-close:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default)}
+
+/* Height is set inline by ChatSurface (resizable). The clamp guarantees the
+   native view can never grow enough to starve .content on a short window. */
+.chat-surface{position:relative;max-height:62vh;display:flex;flex-direction:column;background:#111112;border-bottom:1px solid var(--tempest-border-default)}
+.chat-resize{height:10px;flex:0 0 10px;cursor:row-resize;background:var(--tempest-bg-sidebar);border:0;border-top:1px solid var(--tempest-border-default);padding:0;position:relative;z-index:3;display:grid;place-items:center}
+.chat-resize::after{content:"";width:44px;height:3px;border-radius:2px;background:var(--tempest-border-subtle)}
+.chat-resize:hover::after{background:var(--tempest-fg-subtle)}
+.chat-surface-title{color:var(--tempest-fg-muted)}
+.chat-surface-url{color:var(--tempest-fg-subtle);opacity:.75;margin-left:4px}
+.chat-surface-error{color:var(--tempest-accent-red);display:flex;align-items:center;gap:4px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chat-preview-badge{margin-left:auto;font:500 8px 'Geist Mono',monospace;letter-spacing:.08em;color:var(--tempest-accent-yellow);border:1px solid color-mix(in srgb,var(--tempest-accent-yellow) 35%,transparent);border-radius:3px;padding:1px 4px}
+.chat-surface-body{flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:16px 24px;text-align:center;color:var(--tempest-fg-subtle);background:repeating-linear-gradient(45deg,#0d0d0e,#0d0d0e 9px,#0f0f10 9px,#0f0f10 18px)}
+.chat-surface-headline{margin:2px 0 0;color:var(--tempest-fg-muted);font-size:11.5px}
+.chat-surface-copy{margin:0;max-width:460px;font-size:10px;line-height:1.6}
+.chat-surface-copy.subtle{opacity:.7}
+.chat-surface-copy code{font:9px 'Geist Mono',monospace;color:var(--tempest-fg-muted);background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-subtle);border-radius:3px;padding:1px 3px}
+.chat-surface-cta{margin-top:6px;height:25px;display:flex;align-items:center;gap:6px;padding:0 9px;border:1px solid var(--tempest-border-default);border-radius:5px;background:var(--tempest-bg-editor);color:var(--tempest-fg-subtle);font-size:10px;opacity:.7}
+
+/* ChatGPT's own replies: prose, visually distinct from tool activity. */
+.turn-icon.assistant{border-color:color-mix(in srgb,var(--tempest-accent-green) 40%,transparent);color:var(--tempest-accent-green)}
+.turn-answer{font-size:13px;line-height:1.65;color:var(--tempest-fg-default);white-space:pre-wrap;word-break:break-word}
+
+/* Standalone conversation mirror (used when shown outside the transcript). */
+.conversation{flex:1;min-height:0;overflow-y:auto;padding:8px 2px 20px}
+.conversation-inner{display:flex;flex-direction:column;gap:18px;max-width:760px;margin:0 auto;width:100%}
+.msg{display:flex;flex-direction:column;gap:5px}
+.msg-role{font-size:10.5px;font-weight:500;color:var(--tempest-fg-subtle)}
+.msg-text{font-size:13px;line-height:1.65;color:var(--tempest-fg-default);white-space:pre-wrap;word-break:break-word}
+.msg.user{align-items:flex-end}
+.msg.user .msg-text{max-width:78%;padding:9px 13px;border-radius:14px 14px 3px 14px;background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-default)}
+.msg-status{display:flex;align-items:center;gap:6px;color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace}
+.conversation-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-height:200px;text-align:center;color:var(--tempest-fg-subtle);padding:0 24px}
+.conversation-empty p{margin:0;color:var(--tempest-fg-muted);font-size:13px}
+.conversation-empty small{max-width:340px;font-size:11px;line-height:1.6}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   REOPEN BAR — shown in place of the whole chat region when it is closed
+   ───────────────────────────────────────────────────────────────────────── */
+.chat-reopen{flex:0 0 auto;height:30px;display:flex;align-items:center;gap:8px;padding:0 13px;border:0;border-top:1px solid var(--tempest-border-default);background:var(--tempest-bg-sidebar);color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace;text-align:left}
+.chat-reopen:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default)}
+.chat-reopen-hint{display:flex;align-items:center;gap:4px;margin-left:auto;color:var(--tempest-fg-muted)}
+.chat-reopen kbd{font:9px 'Geist Mono',monospace;border:1px solid var(--tempest-border-subtle);border-radius:3px;padding:1px 4px;background:var(--tempest-bg-base);color:var(--tempest-fg-subtle)}
+
+.prompt-bar{flex:0 0 auto;padding:9px 13px 8px;background:var(--tempest-bg-sidebar)}
+.prompt-error{display:flex;align-items:center;gap:7px;margin-bottom:7px;padding:6px 9px;border:1px solid color-mix(in srgb,var(--tempest-accent-red) 40%,transparent);background:color-mix(in srgb,var(--tempest-accent-red) 8%,transparent);border-radius:5px;color:var(--tempest-accent-red);font-size:10px}
+.prompt-error span{flex:1}
+.prompt-error button{border:0;background:transparent;color:var(--tempest-accent-red);font-size:10px;text-decoration:underline;padding:0}
+.prompt-shell{display:flex;align-items:flex-end;gap:8px;padding:7px 8px;border:1px solid var(--tempest-border-default);border-radius:9px;background:var(--tempest-bg-editor);transition:border-color .15s}
+.prompt-shell:focus-within{border-color:var(--tempest-fg-subtle)}
+.prompt-shell.busy{opacity:.85}
+.prompt-attach{width:26px;height:26px;flex:0 0 26px;display:grid;place-items:center;border:0;border-radius:5px;background:transparent;color:var(--tempest-fg-subtle)}
+.prompt-attach:not(:disabled):hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default)}
+.prompt-input{flex:1;min-width:0;max-height:168px;border:0;background:transparent;color:var(--tempest-fg-default);font:12.5px/1.55 Geist,system-ui,sans-serif;resize:none;outline:none;padding:5px 0}
+.prompt-input::placeholder{color:var(--tempest-fg-subtle)}
+.prompt-actions{display:flex;align-items:center;gap:9px;flex:0 0 auto}
+.prompt-hint{color:var(--tempest-fg-subtle);font-size:9px;opacity:.75;white-space:nowrap}
+.prompt-hint kbd{font:9px 'Geist Mono',monospace;border:1px solid var(--tempest-border-subtle);border-radius:3px;padding:0 3px;background:var(--tempest-bg-base)}
+.prompt-send{width:27px;height:27px;flex:0 0 27px;display:grid;place-items:center;border:0;border-radius:50%;background:var(--tempest-fg-default);color:var(--tempest-bg-base)}
+.prompt-send:disabled{background:var(--tempest-border-default);color:var(--tempest-fg-subtle)}
+.prompt-foot{display:flex;align-items:center;gap:8px;margin-top:6px;color:var(--tempest-fg-subtle);font:9px 'Geist Mono',monospace}
+.prompt-foot-spacer{flex:1}
+.prompt-link{display:flex;align-items:center;gap:5px}
+.prompt-link-dot{width:5px;height:5px;border-radius:50%;background:var(--tempest-fg-subtle)}
+.prompt-link.live .prompt-link-dot{background:var(--tempest-accent-green)}
+.prompt-model{opacity:.7}
+@media(max-width:600px){.prompt-hint{display:none}}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   TRANSCRIPT — the session reads as a conversation, not a boxed log
+
+   There is deliberately NO card around this: no border, no panel background,
+   no header bar. Rows sit directly on the app background with whitespace
+   doing the grouping, so it reads like a chat rather than a table in a frame.
+   ───────────────────────────────────────────────────────────────────────── */
+.chat-column{min-width:0;min-height:0;display:flex;flex-direction:column}
+.chat-scroll{flex:1;min-height:0;overflow-y:auto;padding:4px 2px 28px;scroll-behavior:smooth}
+.transcript{display:flex;flex-direction:column;gap:22px;max-width:760px;margin:0 auto;width:100%}
+
+/* Agent turn: avatar gutter + open prose, nothing enclosing it. */
+.turn{display:flex;gap:12px;min-width:0}
+.turn.agent{align-items:flex-start}
+.turn-gutter{flex:0 0 26px;display:flex;justify-content:center;padding-top:1px}
+.turn-icon{width:26px;height:26px;display:grid;place-items:center;border-radius:50%;background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-default);color:var(--tempest-fg-subtle)}
+.turn-icon.running{border-color:color-mix(in srgb,var(--tempest-accent-yellow) 45%,transparent);color:var(--tempest-accent-yellow)}
+.turn-icon.error{border-color:color-mix(in srgb,var(--tempest-accent-red) 45%,transparent);color:var(--tempest-accent-red)}
+.turn-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:5px}
+.turn-meta{display:flex;align-items:center;gap:8px;font-size:10.5px;color:var(--tempest-fg-subtle)}
+.turn-speaker{color:var(--tempest-fg-default);font-weight:500}
+.turn-kind{font:9px 'Geist Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--tempest-fg-subtle)}
+.turn-duration{font:9px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);opacity:.7}
+.turn-error-tag{display:flex;align-items:center;gap:3px;color:var(--tempest-accent-red);font:9px 'Geist Mono',monospace}
+.turn-text{margin:0;font-size:13px;line-height:1.6;color:var(--tempest-fg-muted)}
+.turn.running .turn-text{color:var(--tempest-fg-default)}
+.turn-disclosure{align-self:flex-start;display:flex;align-items:center;gap:5px;height:20px;padding:0 6px;border:0;border-radius:4px;background:transparent;color:var(--tempest-fg-subtle);font-size:10px}
+.turn-disclosure:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-muted)}
+.turn-detail{display:flex;flex-direction:column;gap:5px;margin-top:2px;padding-left:10px;border-left:1px solid var(--tempest-border-subtle)}
+.turn-detail-row{display:flex;align-items:baseline;gap:9px;min-width:0}
+.turn-detail-row>span{flex:0 0 30px;font:8px 'Geist Mono',monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--tempest-fg-subtle)}
+.turn-detail-row code{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:10px 'Geist Mono',monospace;color:var(--tempest-fg-muted)}
+.turn-output{max-height:200px;overflow:auto;margin:3px 0 0;padding:9px;background:#080808;border-radius:5px;color:#bcbcbc;font:9.5px/1.55 'Geist Mono',monospace;white-space:pre-wrap;word-break:break-word}
+
+/* User turn: right-aligned bubble, the only filled shape in the transcript. */
+.turn.user{justify-content:flex-end}
+.bubble{max-width:78%;padding:9px 13px;border-radius:14px 14px 3px 14px;background:var(--tempest-bg-editor);border:1px solid var(--tempest-border-default);color:var(--tempest-fg-default);font-size:13px;line-height:1.55;white-space:pre-wrap;word-break:break-word}
+
+.transcript-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-height:260px;text-align:center;color:var(--tempest-fg-subtle);padding:0 24px}
+.transcript-empty p{margin:0;color:var(--tempest-fg-muted);font-size:13px}
+.transcript-empty small{max-width:340px;font-size:11px;line-height:1.6}
+.transcript-foot{text-align:center;font:9px 'Geist Mono',monospace;color:var(--tempest-fg-subtle);opacity:.5;padding-top:4px}
+.transcript-foot.warn{display:flex;align-items:center;justify-content:center;gap:5px;opacity:.9;color:var(--tempest-accent-yellow)}
+
+/* The plain list views (changed files / sessions) keep their own container. */
+.list-column{min-width:0;min-height:0;overflow-y:auto;border:1px solid var(--tempest-border-default);background:var(--tempest-bg-panel);border-radius:7px;padding:6px}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   SOURCE PANEL — replaces the old "This session" stats column
+   ───────────────────────────────────────────────────────────────────────── */
+.source-panel{min-height:0;display:flex;flex-direction:column;border:1px solid var(--tempest-border-default);background:var(--tempest-bg-panel);border-radius:7px;overflow:hidden}
+.preview-chip{font:500 8px 'Geist Mono',monospace;letter-spacing:.08em;color:var(--tempest-accent-yellow);border:1px solid color-mix(in srgb,var(--tempest-accent-yellow) 35%,transparent);border-radius:3px;padding:1px 4px}
+.source-search{display:flex;align-items:center;gap:6px;margin:8px;padding:0 8px;height:27px;border:1px solid var(--tempest-border-default);border-radius:5px;background:var(--tempest-bg-editor);color:var(--tempest-fg-subtle)}
+.source-search input{flex:1;min-width:0;border:0;background:transparent;outline:none;color:var(--tempest-fg-default);font:11px 'Geist Mono',monospace}
+.source-search input::placeholder{color:var(--tempest-fg-subtle)}
+.source-tree{flex:1;min-height:0;overflow-y:auto;padding:0 6px 8px}
+.source-group{margin-bottom:2px}
+.source-dir{width:100%;height:24px;display:flex;align-items:center;gap:5px;padding:0 6px;border:0;border-radius:5px;background:transparent;color:var(--tempest-fg-subtle);font:10px 'Geist Mono',monospace}
+.source-dir:hover{background:var(--tempest-bg-hover)}
+.source-dir span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}
+.source-dir em{font-style:normal;opacity:.6}
+.source-file{width:100%;height:26px;display:flex;align-items:center;gap:6px;padding:0 6px 0 20px;border:0;border-radius:5px;background:transparent;color:var(--tempest-fg-muted);font-size:11px}
+.source-file:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default)}
+.source-file.active{background:var(--tempest-bg-active);color:var(--tempest-fg-default)}
+.source-file span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}
+.source-file>svg{color:var(--tempest-fg-subtle);flex:0 0 auto}
+.source-dirty{width:5px;height:5px;border-radius:50%;background:var(--tempest-accent-yellow);flex:0 0 auto}
+.source-diff{font:8px 'Geist Mono',monospace;font-style:normal;color:var(--tempest-fg-subtle);white-space:nowrap}
+.source-viewer{border-top:1px solid var(--tempest-border-default);padding:8px;background:var(--tempest-bg-editor);max-height:38%;display:flex;flex-direction:column;gap:6px}
+.source-viewer-head{display:flex;align-items:center;gap:7px;color:var(--tempest-fg-subtle)}
+.source-viewer-head code{flex:1;font:9px 'Geist Mono',monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;direction:rtl;text-align:left}
+.source-viewer pre{flex:1;min-height:0;overflow:auto;margin:0;padding:8px;background:#080808;border-radius:4px;color:#bcbcbc;font:9px/1.5 'Geist Mono',monospace;white-space:pre;tab-size:2}
+.source-note{margin:0;color:var(--tempest-fg-subtle);font-size:10px;line-height:1.5}
+.source-save{height:24px;display:flex;align-items:center;justify-content:center;gap:5px;border:1px solid var(--tempest-border-default);border-radius:5px;background:transparent;color:var(--tempest-fg-subtle);font-size:9px}
+.empty-state.compact{min-height:130px}
+.top-toggle{display:flex;align-items:center;gap:5px;height:23px;padding:0 9px;border:1px solid var(--tempest-border-default);border-radius:5px;background:var(--tempest-bg-editor);color:var(--tempest-fg-muted);font:10px 'Geist Mono',monospace}
+.top-toggle:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default);border-color:var(--tempest-fg-subtle)}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CONTENT WIDTH TOGGLE + STREAMING TURN
+   ───────────────────────────────────────────────────────────────────────── */
+.width-control{display:flex;align-items:center;gap:1px;border:1px solid var(--tempest-border-default);border-radius:5px;overflow:hidden}
+.width-control button{width:24px;height:21px;display:grid;place-items:center;border:0;background:transparent;color:var(--tempest-fg-subtle)}
+.width-control button:hover{background:var(--tempest-bg-hover);color:var(--tempest-fg-default)}
+.width-control button.active{background:var(--tempest-bg-active);color:var(--tempest-fg-default)}
+.turn-pending{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--tempest-fg-subtle)}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CHATGPT PAGE — native view fills the workspace
+
+   The surface here is NOT height-limited the way the old bottom panel was:
+   the whole point of a dedicated page is that the chat gets real estate.
+   ───────────────────────────────────────────────────────────────────────── */
+.chat-page{flex:1;min-height:0;display:flex;flex-direction:column;background:var(--tempest-bg-base)}
+/* On the chat page the surface grows to fill, so the inline height from
+   ChatSurface is not applied. */
+.chat-page .chat-surface{flex:1 1 auto;min-height:0;max-height:none}
+.chat-page .prompt-bar{border-top:1px solid var(--tempest-border-default)}
+
+/* Composer on the Session page: sits below the panels, above the status bar. */
+.session-composer{flex:0 0 auto;border-top:1px solid var(--tempest-border-default);margin-top:12px}
+
+/* On the chat page the host must GROW, not shrink-to-fit: the base rule
+   sets flex:0 0 auto, which collapses the flex:1 surface inside it to 1px. */
+.chat-page > .chat-surface-host{flex:1 1 auto;min-height:0}

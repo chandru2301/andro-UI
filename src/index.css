@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap");
+
+:root{
+ --tempest-bg-base:#0a0a0a; --tempest-bg-sidebar:#0a0a0a; --tempest-bg-panel:#0a0a0a; --tempest-bg-editor:#0f0f10;
+ --tempest-bg-hover:#ffffff1a; --tempest-bg-active:#ffffff1a; --tempest-border-subtle:#333333; --tempest-border-default:#2a2a2a;
+ --tempest-fg-default:#ededed; --tempest-fg-muted:#a1a1a1; --tempest-fg-subtle:#878787;
+ --tempest-accent-yellow:#f99902; --tempest-accent-green:#58c760; --tempest-accent-red:#f56464;
+ --tempest-git-added:#58c760; --tempest-git-modified:#f99902; --tempest-git-deleted:#f56464;
+ color-scheme:dark; color:#ededed; background:#0a0a0a; font-family:Geist,system-ui,sans-serif; font-synthesis:none; text-rendering:optimizeLegibility;
+}
+*{box-sizing:border-box;margin:0;padding:0;scrollbar-width:thin;scrollbar-color:var(--tempest-border-subtle) transparent}
+*::-webkit-scrollbar{width:8px;height:8px}*::-webkit-scrollbar-track{background:transparent}*::-webkit-scrollbar-thumb{background:var(--tempest-border-subtle);border-radius:4px}*::-webkit-scrollbar-thumb:hover{background:var(--tempest-border-default)}
+html,body,#root{height:100%;overflow:hidden;background:var(--tempest-bg-base)}button{font:inherit;cursor:pointer}button:disabled{cursor:default}:focus-visible{outline:1px solid var(--tempest-fg-muted);outline-offset:2px}
